@@ -2,7 +2,7 @@
 
 ## Summary
 
-A crowdfunding project about release online courses and buy some project on blockchain. Buyer can buy some courses they like. But it is worth your attention that every course price is different between before crowdfunding and after crowdfunding.  People can also ask their question about some course in question area. 
+A crowdfunding project about release online courses and buy some projects on blockchain. Buyer can buy some courses they like. But it is worth your attention that every course price is different between before crowdfunding and after crowdfunding.  People can also ask their question about some course in question area. 
 
 ## Technology
 
