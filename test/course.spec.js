@@ -16,7 +16,7 @@ describe('Imooc智能合约', () => {
         accounts = await web3.eth.getAccounts();
         const {interface,bytecode} = CourseList;
         courseList = await new web3.eth.Contract(JSON.parse(interface))
-            .deploy({data:bytecode})
+            .deploy({data:bytecode}
             .send({
                 from:accounts[0],
                 gas:"5000000"

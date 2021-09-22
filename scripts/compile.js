@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const solc = require('solc');
-
+console.log(fs)
 const contractPath = path.resolve(__dirname,"../contracts/Imooc.sol");
 
 const source = fs.readFileSync(contractPath,"utf-8");

@@ -170,7 +170,7 @@ contract Course{
                 //讲师分成90%
                 owner.transfer(value - value / 10);
             }else{
-                //上线之后讲所有的钱转给讲师
+                //上线之后将所有的钱转给讲师
                 isOnline = true;
                 owner.transfer(count * fundingPrice);
             }

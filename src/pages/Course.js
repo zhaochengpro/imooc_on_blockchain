@@ -42,13 +42,13 @@ class Course extends React.Component {
     }
     onChangeSwitch = (v) => {
         this.setState({
-            showAll:v
+            showAll: v
         })
     }
-    remove = async(i) => {
+    remove = async (i) => {
         await courseListContract.methods.removeCourse(i).send({
-            from:this.state.account,
-            gas:'5000000'
+            from: this.state.account,
+            gas: '5000000'
         })
         this.init();
     }
@@ -56,7 +56,7 @@ class Course extends React.Component {
         return <Row
             gutter={16}
             type="flex"
-            style={{ marginTop: "20px",marginLeft:"10px" }}
+            style={{ marginTop: "20px", marginLeft: "10px" }}
 
         >
             <Col span={20}>
@@ -65,7 +65,7 @@ class Course extends React.Component {
             {
                 this.state.detailList.map((detail, i) => {
                     const address = this.state.addressList[i]
-                    let [name, content, target, fundingPrice, price, img, video, count, role,isOnline] = Object.values(detail);
+                    let [name, content, target, fundingPrice, price, img, video, count, role, isOnline] = Object.values(detail);
                     if (!this.state.showAll && !isOnline) {
                         return null
                     }

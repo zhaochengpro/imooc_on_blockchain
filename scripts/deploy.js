@@ -11,7 +11,7 @@ const CourseList = require(path.resolve(__dirname,'../src/compiled/CourseList.js
 const {interface,bytecode} = CourseList;
 const provider = new HdwalletProvider(
     "save pause run butter submit chief believe place cherry damp next fluid",
-    "https://ropsten.infura.io/v3/a7633351c7fa4af399e2a6722b26f881"
+    "https://rinkeby.infura.io/v3/2b86c426683f4a6095fd175fe931d799"
 )
 
 const web3 = new Web3(provider);

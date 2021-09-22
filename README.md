@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# IMOOC_ON_BLOCKCHAIN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+A crowdfunding project about release online courses and buy some project on blockchain. Buyer can buy some courses they like. But it is worth your attention that every course price is different between before crowdfunding and after crowdfunding.  People can also ask their question about some course in question area. 
 
-In the project directory, you can run:
+## Technology
 
-### `npm start`
+`React` `Solidity` `IPFS`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Start using
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### deploy
 
-### `npm test`
+Open terminal and input:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`````````bash
+npm run deploy
+`````````
 
-### `npm run build`
+### start react
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Function
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 1. Release a crowdfunding course
 
-### `npm run eject`
+![image-20210922095026463](./public/image-20210922095026463.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`notice:the image of course is stored on ipfs`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 2. We can see it that we just creaed  on index page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+​	![image-20210922095323560](./public/image-20210922095323560.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`notice: the manager of course can delete their course or see their course detail`
 
-## Learn More
+#### 3. Some detail  about course
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image-20210922095543489](./public/image-20210922095543489.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image-20210922095920555](./public/image-20210922095920555.png)
 
-### Code Splitting
+`notice: If account is a manager, they can upload a video about this course. but if account is a buyer, they can buy this course in crowdfunding price`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### 4. Question Area
 
-### Analyzing the Bundle Size
+people can ask some question in question area
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image-20210922100657850](./public/image-20210922100657850.png)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`notice: these question will be stored on IPFS`
